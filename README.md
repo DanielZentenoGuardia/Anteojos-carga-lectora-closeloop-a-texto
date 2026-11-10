@@ -19,6 +19,22 @@ Anteojos (2× OV9281 IR + cámara de escena)      Raspberry Pi 5 (bolsillo)     
                                                                                       ◀── variantes del texto (app web)
 ```
 
+## Esquema del dispositivo
+
+**Hardware de los anteojos** (vistas frontal, interior y lateral; dibujo conceptual, sin escala):
+
+![Hardware de los anteojos](docs/img/hardware_anteojos.svg)
+
+**Electrónica y costos, versión de costo mínimo** (≈ US$ 150–200):
+
+![Electrónica de costo mínimo](docs/img/electronica_costo_minimo.svg)
+
+La versión con proveedores estándar (≈ US$ 240–350) está en
+[`docs/img/electronica_estandar.svg`](docs/img/electronica_estandar.svg). Detalle de
+componentes y conexiones en [`docs/hardware.md`](docs/hardware.md).
+
+## Parámetros
+
 Cuatro parámetros oculares (ver `docs/marco_teorico.md`):
 
 | | Parámetro | Qué indica |

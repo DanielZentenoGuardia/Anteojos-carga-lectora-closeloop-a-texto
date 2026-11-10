@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern><linearGradient id="lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f1fb"/><stop offset="1" stop-color="#d3e3f5"/></linearGradient></defs>
+<rect width="100%" height="100%" fill="url(#g)"/>
+<text x="40" y="50" font-size="26" font-weight="700" fill="#1F3864">Anteojos para medición de carga cognitiva en lectura — concepto de hardware</text>
+<text x="40" y="76" font-size="14" fill="#555">Dibujo conceptual, sin escala. Vistas: frontal (A), interior hacia el usuario (B) y lateral de la patilla derecha (C).</text>
+<rect x="30" y="100" width="655" height="400" rx="14" fill="none" stroke="#c9d3e0" stroke-width="1.5"/>
+<text x="48" y="130" font-size="17" font-weight="700" fill="#2F5496">A · Vista frontal (exterior)</text>
+<rect x="107.0" y="255.0" width="220.0" height="150.0" rx="55.0" fill="url(#lens)" stroke="#2b2f36" stroke-width="11.0"/>
+<rect x="387.0" y="255.0" width="220.0" height="150.0" rx="55.0" fill="url(#lens)" stroke="#2b2f36" stroke-width="11.0"/>
+<path d="M325.0,290.0 Q357.0,267.0 389.0,290.0" fill="none" stroke="#2b2f36" stroke-width="11.0" stroke-linecap="round"/>
+<line x1="107.0" y1="280.0" x2="72.0" y2="273.0" stroke="#2b2f36" stroke-width="12.0" stroke-linecap="round"/>
+<line x1="607.0" y1="280.0" x2="642.0" y2="273.0" stroke="#2b2f36" stroke-width="12.0" stroke-linecap="round"/>
+<circle cx="357.0" cy="277.0" r="11" fill="#111"/><circle cx="357.0" cy="277.0" r="6" fill="#3a6ea5"/><circle cx="355.0" cy="275.0" r="2" fill="#cfe3ff"/>
+<circle cx="357.0" cy="266.0" r="3.5" fill="#1F3864"/>
+<polyline points="357.0,266.0 357.0,176" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<text x="357.0" y="154" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle">Cámara de escena</text>
+<text x="357.0" y="170" font-size="12" fill="#555" text-anchor="middle">≥1080p, autofoco cercano → OCR del texto</text>
+<rect x="550.0" y="250.0" width="14" height="10" rx="2" fill="#f2c94c" stroke="#8a6d00"/>
+<circle cx="557.0" cy="250.0" r="3.5" fill="#1F3864"/>
+<polyline points="557.0,250.0 557.0,231" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<text x="557.0" y="209" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle">Sensor de luz ambiente</text>
+<text x="557.0" y="225" font-size="12" fill="#555" text-anchor="middle">corrección de pupila (P3)</text>
+<circle cx="157.0" cy="255.0" r="6" fill="#27ae60" stroke="#145a32"/>
+<circle cx="157.0" cy="249.0" r="3.5" fill="#1F3864"/>
+<polyline points="157.0,249.0 157.0,231" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<text x="157.0" y="209" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle">LED de privacidad</text>
+<text x="157.0" y="225" font-size="12" fill="#555" text-anchor="middle">visible a terceros al grabar</text>
+<text x="217.0" y="345.0" font-size="12" fill="#6b7f99" text-anchor="middle">lente graduable</text>
+<text x="217.0" y="361.0" font-size="12" fill="#6b7f99" text-anchor="middle">o neutra</text>
+<text x="497.0" y="345.0" font-size="12" fill="#6b7f99" text-anchor="middle">filtro IR exterior</text>
+<text x="497.0" y="361.0" font-size="12" fill="#6b7f99" text-anchor="middle">(reduce ruido solar)</text>
+<text x="357" y="470" font-size="12.5" fill="#555" text-anchor="middle">El campo de la cámara de escena cubre la zona de lectura (~40 cm, 60° vertical hacia abajo).</text>
+<rect x="715" y="100" width="655" height="400" rx="14" fill="none" stroke="#c9d3e0" stroke-width="1.5"/>
+<text x="733" y="130" font-size="17" font-weight="700" fill="#2F5496">B · Vista interior (hacia los ojos)</text>
+<rect x="792.0" y="220.0" width="220.0" height="150.0" rx="55.0" fill="url(#lens)" stroke="#2b2f36" stroke-width="11.0"/>
+<rect x="1072.0" y="220.0" width="220.0" height="150.0" rx="55.0" fill="url(#lens)" stroke="#2b2f36" stroke-width="11.0"/>
+<path d="M1010.0,255.0 Q1042.0,232.0 1074.0,255.0" fill="none" stroke="#2b2f36" stroke-width="11.0" stroke-linecap="round"/>
+<line x1="792.0" y1="245.0" x2="757.0" y2="238.0" stroke="#2b2f36" stroke-width="12.0" stroke-linecap="round"/>
+<line x1="1292.0" y1="245.0" x2="1327.0" y2="238.0" stroke="#2b2f36" stroke-width="12.0" stroke-linecap="round"/>
+<circle cx="1014.0" cy="295.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="981.1959594928933" cy="350.1543289325507" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="902.0" cy="373.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="822.8040405071067" cy="350.1543289325507" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="790.0" cy="295.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="822.8040405071067" cy="239.8456710674493" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="902.0" cy="217.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="981.1959594928933" cy="239.84567106744927" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1294.0" cy="295.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1261.1959594928933" cy="350.1543289325507" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1182.0" cy="373.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1102.8040405071067" cy="350.1543289325507" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1070.0" cy="295.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1102.8040405071067" cy="239.8456710674493" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1182.0" cy="217.0" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<circle cx="1261.1959594928933" cy="239.84567106744927" r="4.5" fill="#c0392b" stroke="#fff" stroke-width="1"/>
+<path d="M1000.0,362.0 L862.0,265.0 L942.0,325.0 Z" fill="#8e44ad" fill-opacity="0.10" stroke="#8e44ad" stroke-dasharray="4 4"/>
+<rect x="990.0" y="355.0" width="20" height="14" rx="3" fill="#111"/><circle cx="1000.0" cy="362.0" r="4" fill="#8e44ad"/>
+<ellipse cx="1018.0" cy="338.0" rx="7" ry="12" fill="#dfe6ee" stroke="#7f8c8d"/>
+<path d="M1084.0,362.0 L1142.0,325.0 L1222.0,265.0 Z" fill="#8e44ad" fill-opacity="0.10" stroke="#8e44ad" stroke-dasharray="4 4"/>
+<rect x="1074.0" y="355.0" width="20" height="14" rx="3" fill="#111"/><circle cx="1084.0" cy="362.0" r="4" fill="#8e44ad"/>
+<ellipse cx="1066.0" cy="338.0" rx="7" ry="12" fill="#dfe6ee" stroke="#7f8c8d"/>
+<circle cx="1000.0" cy="369.0" r="3.5" fill="#6c3483"/>
+<polyline points="1000.0,369.0 980,470" fill="none" stroke="#6c3483" stroke-width="1.2"/>
+<text x="974" y="474" font-size="13.5" font-weight="700" fill="#6c3483" text-anchor="end">Cámaras oculares IR (×2)</text>
+<text x="974" y="490" font-size="12" fill="#555" text-anchor="end">≥250 Hz, 850 nm, binoculares → P1–P4</text>
+<circle cx="902.0" cy="212.0" r="3.5" fill="#922b21"/>
+<polyline points="902.0,212.0 902.0,204" fill="none" stroke="#922b21" stroke-width="1.2"/>
+<text x="902.0" y="182" font-size="13.5" font-weight="700" fill="#922b21" text-anchor="middle">Anillo de LEDs IR (8 por ojo)</text>
+<text x="902.0" y="198" font-size="12" fill="#555" text-anchor="middle">iluminación + reflejos corneales</text>
+<circle cx="1066.0" cy="350.0" r="3.5" fill="#555"/>
+<polyline points="1066.0,350.0 1110,470" fill="none" stroke="#555" stroke-width="1.2"/>
+<text x="1116" y="474" font-size="13.5" font-weight="700" fill="#555" text-anchor="start">Almohadillas nasales</text>
+<text x="1116" y="490" font-size="12" fill="#555" text-anchor="start">con sensor de contacto (detecta puesta)</text>
+<text x="1355" y="152" font-size="12" text-anchor="end" fill="#555">Las cámaras van en la esquina inferior nasal: no tapan la visión de lectura</text>
+<rect x="30" y="525" width="1340" height="260" rx="14" fill="none" stroke="#c9d3e0" stroke-width="1.5"/>
+<text x="48" y="555" font-size="17" font-weight="700" fill="#2F5496">C · Vista lateral — patilla derecha (componentes internos)</text>
+<rect x="95" y="582" width="22" height="150" rx="9" fill="#2b2f36"/>
+<circle cx="92" cy="592" r="7" fill="#111"/>
+<text x="60" y="572" font-size="12" fill="#555">cámara de escena (perfil)</text>
+<circle cx="135" cy="610" r="9" fill="#7f8c8d" stroke="#2b2f36" stroke-width="2"/>
+<path d="M135 598 L1040 598 Q1110 598 1150 652 Q1175 687 1160 712 L1140 707 Q1150 682 1130 652 Q1100 626 1040 626 L135 626 Z" fill="#3a3f47"/>
+<rect x="170" y="602" width="870" height="20" rx="4" fill="#f4f6f9" stroke="#9aa5b1" stroke-dasharray="3 3"/>
+<rect x="180" y="605" width="150" height="14" rx="3" fill="#2e86c1"/>
+<circle cx="255.0" cy="619" r="3.5" fill="#2e86c1"/>
+<polyline points="255.0,619 255.0,688" fill="none" stroke="#2e86c1" stroke-width="1.2"/>
+<text x="255.0" y="706" font-size="13.5" font-weight="700" fill="#2e86c1" text-anchor="middle">SoC + NPU</text>
+<text x="255.0" y="722" font-size="12" fill="#555" text-anchor="middle">eventos, OCR, P1–P4</text>
+<rect x="345" y="605" width="60" height="14" rx="3" fill="#16a085"/>
+<circle cx="375.0" cy="619" r="3.5" fill="#16a085"/>
+<polyline points="375.0,619 375.0,733" fill="none" stroke="#16a085" stroke-width="1.2"/>
+<text x="375.0" y="751" font-size="13.5" font-weight="700" fill="#16a085" text-anchor="middle">IMU 6 ejes</text>
+<text x="375.0" y="767" font-size="12" fill="#555" text-anchor="middle">≥200 Hz, movimiento de cabeza</text>
+<rect x="420" y="605" width="90" height="14" rx="3" fill="#7d3c98"/>
+<circle cx="465.0" cy="619" r="3.5" fill="#7d3c98"/>
+<polyline points="465.0,619 465.0,688" fill="none" stroke="#7d3c98" stroke-width="1.2"/>
+<text x="465.0" y="706" font-size="13.5" font-weight="700" fill="#7d3c98" text-anchor="middle">Memoria cifrada</text>
+<text x="465.0" y="722" font-size="12" fill="#555" text-anchor="middle">datos cifrados en el equipo</text>
+<rect x="525" y="605" width="80" height="14" rx="3" fill="#d35400"/>
+<circle cx="565.0" cy="619" r="3.5" fill="#d35400"/>
+<polyline points="565.0,619 565.0,733" fill="none" stroke="#d35400" stroke-width="1.2"/>
+<text x="565.0" y="751" font-size="13.5" font-weight="700" fill="#d35400" text-anchor="middle">Wi-Fi / BLE</text>
+<text x="565.0" y="767" font-size="12" fill="#555" text-anchor="middle">solo exporta métricas</text>
+<rect x="620" y="605" width="50" height="14" rx="3" fill="#566573"/>
+<circle cx="645.0" cy="619" r="3.5" fill="#566573"/>
+<polyline points="645.0,619 645.0,688" fill="none" stroke="#566573" stroke-width="1.2"/>
+<text x="645.0" y="706" font-size="13.5" font-weight="700" fill="#566573" text-anchor="middle">Botón</text>
+<text x="645.0" y="722" font-size="12" fill="#555" text-anchor="middle">inicio / pausa</text>
+<rect x="690" y="605" width="70" height="14" rx="3" fill="#b7950b"/>
+<circle cx="725.0" cy="619" r="3.5" fill="#b7950b"/>
+<polyline points="725.0,619 725.0,733" fill="none" stroke="#b7950b" stroke-width="1.2"/>
+<text x="725.0" y="751" font-size="13.5" font-weight="700" fill="#b7950b" text-anchor="middle">Háptico</text>
+<text x="725.0" y="767" font-size="12" fill="#555" text-anchor="middle">aviso de pausa</text>
+<rect x="780" y="605" width="240" height="14" rx="3" fill="#c0392b"/>
+<circle cx="900.0" cy="619" r="3.5" fill="#c0392b"/>
+<polyline points="900.0,619 900.0,688" fill="none" stroke="#c0392b" stroke-width="1.2"/>
+<text x="900.0" y="706" font-size="13.5" font-weight="700" fill="#c0392b" text-anchor="middle">Batería Li-Po</text>
+<text x="900.0" y="722" font-size="12" fill="#555" text-anchor="middle">≥4 h; atrás para equilibrar el peso</text>
+<path d="M106 727 Q106 652 150 624" fill="none" stroke="#8e44ad" stroke-width="3" stroke-dasharray="6 3"/>
+<text x="40" y="747" font-size="12" fill="#6c3483">flex de cámaras</text>
+<text x="40" y="762" font-size="12" fill="#6c3483">oculares</text>
+<rect x="1150" y="700" width="16" height="9" rx="3" fill="#bdc3c7" stroke="#555"/>
+<circle cx="1158" cy="709" r="3.5" fill="#1F3864"/>
+<polyline points="1158,709 1230,728" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<text x="1230" y="746" font-size="13.5" font-weight="700" fill="#1F3864" text-anchor="middle">USB-C</text>
+<text x="1230" y="762" font-size="12" fill="#555" text-anchor="middle">carga y datos</text>
+<rect x="30" y="805" width="1340" height="130" rx="14" fill="#f6f9fd" stroke="#c9d3e0" stroke-width="1.5"/>
+<text x="50" y="835" font-size="16" font-weight="700" fill="#2F5496">Especificaciones objetivo</text>
+<text x="50" y="865" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Muestreo ocular: </tspan>≥ 250 Hz binocular</text>
+<text x="380" y="865" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Precisión: </tspan>≤ 0,5° (nivel palabra)</text>
+<text x="710" y="865" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Ruido pupilar: </tspan>≤ 0,02 mm RMS</text>
+<text x="1040" y="865" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Peso: </tspan>≤ 60 g</text>
+<text x="50" y="903" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Autonomía: </tspan>≥ 4 h de lectura</text>
+<text x="380" y="903" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Privacidad: </tspan>procesamiento local</text>
+<text x="710" y="903" font-size="13.5" fill="#1F3864"><tspan font-weight="700">Parámetros: </tspan>P1 fijación · P2 regresiones · P3 pupila · P4 parpadeo</text>
+</svg>
