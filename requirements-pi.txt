@@ -1,0 +1,3 @@
+# En Raspberry Pi OS instalar primero por apt: python3-picamera2 python3-opencv python3-gpiozero
+numpy>=1.24
+smbus2>=0.4

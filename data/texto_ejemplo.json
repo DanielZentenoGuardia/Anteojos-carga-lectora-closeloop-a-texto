@@ -1,0 +1,81 @@
+{
+  "titulo": "Texto de ejemplo: cómo leemos",
+  "capitulos": [
+    {
+      "id": "c1",
+      "titulo": "1. Los ojos durante la lectura",
+      "parrafos": [
+        {
+          "id": "c1p1",
+          "oraciones": [
+            {"id": "s1", "variantes": [
+              {"id": "orig", "texto": "Cuando leemos, los ojos no se deslizan de manera continua sobre la línea, sino que avanzan mediante pequeños saltos llamados sacadas, separados por detenciones breves denominadas fijaciones, durante las cuales se extrae casi toda la información visual del texto.",
+               "rasgos": {"subordinadas": 2}},
+              {"id": "dividir", "texto": "Cuando leemos, los ojos no se deslizan de manera continua sobre la línea. Avanzan mediante pequeños saltos llamados sacadas. Entre salto y salto hay detenciones breves, llamadas fijaciones, y en ellas se extrae casi toda la información visual.",
+               "transformaciones": ["dividir"], "rasgos": {"subordinadas": 1}}
+            ]},
+            {"id": "s2", "variantes": [
+              {"id": "orig", "texto": "Una fijación típica dura entre 200 y 250 milisegundos."}
+            ]},
+            {"id": "s3", "variantes": [
+              {"id": "orig", "texto": "La duración de cada fijación fue relacionada por los investigadores con la dificultad de la palabra observada.",
+               "rasgos": {"pasiva": 1}},
+              {"id": "activa", "texto": "Los investigadores relacionaron la duración de cada fijación con la dificultad de la palabra observada.",
+               "transformaciones": ["pasiva_a_activa"], "rasgos": {"pasiva": 0}}
+            ]}
+          ]
+        },
+        {
+          "id": "c1p2",
+          "oraciones": [
+            {"id": "s4", "variantes": [
+              {"id": "orig", "texto": "El párrafo que el lector releyó contenía una construcción que los lingüistas consideran costosa.",
+               "rasgos": {"relativa_objeto": 1, "subordinadas": 2}},
+              {"id": "svo", "texto": "El lector releyó el párrafo. Ese párrafo contenía una construcción costosa, según los lingüistas.",
+               "transformaciones": ["relativa_a_svo", "dividir"], "rasgos": {"relativa_objeto": 0, "subordinadas": 0}}
+            ]},
+            {"id": "s5", "variantes": [
+              {"id": "orig", "texto": "Cerca de uno de cada diez movimientos oculares vuelve hacia atrás en el texto."}
+            ]},
+            {"id": "s6", "variantes": [
+              {"id": "orig", "texto": "La realización de la evaluación de la comprensión requiere la consideración de estos retrocesos.",
+               "rasgos": {"nominalizaciones": 3}},
+              {"id": "verbos", "texto": "Para evaluar si alguien comprendió, hay que considerar estos retrocesos.",
+               "transformaciones": ["nominalizacion_a_verbo"], "rasgos": {"nominalizaciones": 0}}
+            ]}
+          ]
+        }
+      ],
+      "preguntas": [
+        {"pregunta": "¿Qué son las fijaciones?", "opciones": ["Saltos rápidos de los ojos", "Detenciones breves de la mirada", "Parpadeos largos"], "correcta": 1},
+        {"pregunta": "¿Cuánto dura una fijación típica?", "opciones": ["20 a 25 ms", "200 a 250 ms", "2 a 2,5 s"], "correcta": 1}
+      ]
+    },
+    {
+      "id": "c2",
+      "titulo": "2. La pupila y el esfuerzo",
+      "parrafos": [
+        {
+          "id": "c2p1",
+          "oraciones": [
+            {"id": "s7", "variantes": [
+              {"id": "orig", "texto": "La pupila se dilata levemente cuando una tarea exige más memoria de trabajo, un fenómeno descrito en la década de 1960 que todavía se usa como índice de esfuerzo mental en laboratorios de todo el mundo.",
+               "rasgos": {"subordinadas": 1}},
+              {"id": "dividir", "texto": "La pupila se dilata levemente cuando una tarea exige más memoria de trabajo. Este fenómeno se describió en la década de 1960. Todavía se usa como índice de esfuerzo mental.",
+               "transformaciones": ["dividir"], "rasgos": {"subordinadas": 0}}
+            ]},
+            {"id": "s8", "variantes": [
+              {"id": "orig", "texto": "Sin embargo, la luz cambia el tamaño de la pupila mucho más que el pensamiento."}
+            ]},
+            {"id": "s9", "variantes": [
+              {"id": "orig", "texto": "Por eso los anteojos miden la luz ambiente y prefieren contar dilataciones rápidas antes que el diámetro absoluto."}
+            ]}
+          ]
+        }
+      ],
+      "preguntas": [
+        {"pregunta": "¿Por qué no basta el diámetro de la pupila?", "opciones": ["Porque la luz lo afecta mucho", "Porque no cambia nunca", "Porque depende del idioma"], "correcta": 0}
+      ]
+    }
+  ]
+}

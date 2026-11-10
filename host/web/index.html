@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lectura</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header id="barra">
+    <span id="titulo"></span>
+    <span id="estado" class="chip" title="Estado estimado por los anteojos">sin datos</span>
+    <button id="btn-calibrar" type="button">Calibrar</button>
+    <button id="btn-original" type="button" aria-pressed="false">Ver original</button>
+  </header>
+
+  <main id="documento" aria-live="off"></main>
+
+  <!-- Marcadores ArUco (ids 0-3) para que la cámara de escena ubique la pantalla.
+       Generarlos con: python tools/generar_marcadores.py -->
+  <img class="marcador" id="m0" data-id="0" src="/static/marcadores/aruco_0.png" alt="">
+  <img class="marcador" id="m1" data-id="1" src="/static/marcadores/aruco_1.png" alt="">
+  <img class="marcador" id="m2" data-id="2" src="/static/marcadores/aruco_2.png" alt="">
+  <img class="marcador" id="m3" data-id="3" src="/static/marcadores/aruco_3.png" alt="">
+
+  <div id="calibracion" hidden><div id="punto"></div><p id="calib-msg"></p></div>
+  <div id="mirada" hidden></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

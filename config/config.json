@@ -1,0 +1,55 @@
+{
+  "red": {
+    "udp_port": 5005,
+    "http_port": 8000
+  },
+  "pantalla": {
+    "distancia_mm": 550,
+    "px_por_mm": 3.78,
+    "zoom": 1.5
+  },
+  "eventos": {
+    "umbral_ivt_grados_s": 30.0,
+    "fijacion_min_ms": 60,
+    "parpadeo_min_ms": 50,
+    "parpadeo_max_ms": 500,
+    "max_dt_binocular_ms": 5.0
+  },
+  "fases": {
+    "paginas_linea_base": 8,
+    "explorar_hasta_pagina": 30,
+    "paginas_adelanto": 1,
+    "tasa_exploracion": 0.5,
+    "tasa_control": 0.18,
+    "prob_min_recomendar": 0.9,
+    "mejora_min": 0.10
+  },
+  "carga": {
+    "pesos": {"p1": 0.35, "p2_regresiones": 0.25, "p2_gopast": 0.25, "p3_ipa": 0.15},
+    "ventana_ipa_s": 6.0,
+    "ventana_parpadeo_s": 60.0,
+    "ventana_pendiente_palabras": 50
+  },
+  "rasgos": {
+    "nombres": ["largo_oracion", "palabras_raras", "pasiva", "relativa_objeto", "nominalizaciones", "subordinadas"],
+    "escala": {"largo_oracion": 10.0, "palabras_raras": 2.0, "pasiva": 1.0, "relativa_objeto": 1.0, "nominalizaciones": 1.0, "subordinadas": 1.0},
+    "prior_media": {"largo_oracion": 0.2, "palabras_raras": 0.2, "pasiva": 0.1, "relativa_objeto": 0.3, "nominalizaciones": 0.1, "subordinadas": 0.1},
+    "prior_sd": 0.5,
+    "ruido_sd": 1.0
+  },
+  "lexico_por_defecto": {"intercepto": 230.0, "largo": 8.0, "zipf": -15.0, "surprisal": 4.0},
+  "pi": {
+    "host_ip": "192.168.1.50",
+    "fps_ojos": 250,
+    "exposicion_us": 2000,
+    "tamano": [640, 400],
+    "mm_por_px_pupila": 0.05,
+    "gpio_leds_ir": 18,
+    "ciclo_leds_ir": 0.5,
+    "gpio_haptico": 23,
+    "gpio_led_privacidad": 24,
+    "gpio_boton": 25,
+    "camara_escena": 0,
+    "diccionario_aruco": "DICT_4X4_50"
+  }
+}
